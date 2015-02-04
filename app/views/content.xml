@@ -1,0 +1,5 @@
+<Alloy>
+    <View class="container">
+        <Label id="label">Hello, World Content1</Label>
+    </View>
+</Alloy>

@@ -1,0 +1,29 @@
+"#row": {
+  height:40,
+},
+"#row[platform=android formFactor=tablet]": {
+  height : 96
+},
+".icon": {
+  left: 5,
+  font: {
+    fontSize: 25,
+  }
+},
+".icon[platform=android formFactor=tablet]": {
+  left:5,
+  font: {
+    fontSize: 60
+  }
+},
+"#title": {
+  left:35,
+  color: 'black'
+},
+"#title[platform=android formFactor=tablet]": {
+  left:80,
+  font: {
+    fontSize: 30
+  },
+  color: 'black'
+}

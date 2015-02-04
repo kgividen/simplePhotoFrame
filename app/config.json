@@ -7,5 +7,8 @@
 	"os:blackberry": {},
 	"os:ios": {},
 	"os:mobileweb": {},
-	"dependencies": {}
+	"dependencies": {
+        "ds.slideMenu":"0.1",
+        "com.mattmcfarland.fontawesome": "*"
+    }
 }

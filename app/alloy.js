@@ -9,3 +9,7 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+var osname = "android";
+if (Ti.Platform.osname === 'iphone' || Ti.Platform.osname === 'ipad') {
+    osname = "ios";
+}
