@@ -38,8 +38,20 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <property name="ti.android.fastdev" type="bool">false</property>
     <property name="ti.android.largeHeap">true</property>
+    <!--<property name="ti.android.threadstacksize" type="int">32768</property>-->
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:versionCode="1" android:versionName="1.0">
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
+            <supports-screens android:anyDensity="false"/>
+            <!--android:largeScreens="true" android:normalScreens="true"
+                android:smallScreens="false" android:xlargeScreens="false"/-->
+            <application>
+                <!--activity android:name="org.appcelerator.titanium.TiActivity" android:screenOrientation="portrait"/-->
+            </application>
+        </manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
