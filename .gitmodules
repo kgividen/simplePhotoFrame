@@ -1,0 +1,3 @@
+[submodule "app/widgets/com.mattmcfarland.fontawesome"]
+	path = app/widgets/com.mattmcfarland.fontawesome
+	url = /Users/kgividen/Data/github/com.mattmcfarland.fontawesome
