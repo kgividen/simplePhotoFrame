@@ -1,0 +1,8 @@
+"#slideViewer" : {
+    fullscreen: true,
+    tabBarHidden:true
+},
+"#imageView": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+}

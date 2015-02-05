@@ -17,12 +17,10 @@ function createSideMenu(sections, controller) {
 function rowSelect(e) {
     switch(e.row.action) {
         case "menu1":
-//            Alloy.createController("content").getView();
-            $.ds.contentview.add(Alloy.createController("content1").getView());
-
+            Alloy.createController("slideViewer").getView().open();
             break;
         case "menu2":
-            $.ds.contentview.add(Alloy.createController("content2").getView());
+            $.ds.contentview.add(Alloy.createController("galleryPicker").getView());
 
             break;
         case "settings":
@@ -61,13 +59,13 @@ var leftMenu = [
         title: 'Menu',
         header: true
     },{
-        title: 'Item 1',
+        title: 'Start Slideshow',
         type: 'menu',
         icon: 'fa-heart-o',
         iconColor: '#999',
         action: 'menu1'
     },{
-        title: 'Item 2',
+        title: 'Choose photos',
         type: 'menu',
         icon: 'fa-heart-o',
         iconColor: '#999',
@@ -164,7 +162,7 @@ function startUI(){
     });
 
     //Empty the current contentView
-    $.ds.contentview.add(Alloy.createController("content").getView());
+    Alloy.createController("slideViewer").getView().open();
 }
 
 startUI();

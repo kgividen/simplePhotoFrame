@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="slideViewer">
+        <ImageView id="imageView" />
+    </Window>
+</Alloy>
